@@ -2,26 +2,58 @@
 
 # Book Recommendation System
 
-•	During the last few decades, with the rise of Youtube, Amazon, Netflix, and many other such web services, recommender systems have taken more and more place in our lives. From e-commerce (suggest to buyers articles that could interest them) to online advertisement (suggest to users the right contents, matching their preferences), recommender systems are today unavoidable in our daily online journeys.
+## Objective<br>
+The main objective is to create a book recommendation system for users. Recommender systems are really critical in some industries as they can generate a huge
+amount of income when they are efficient or also be a way to stand out significantly from competitors. 
 
-•	In a very general way, recommender systems are algorithms aimed at suggesting relevant items to users (items being movies to watch, text to read, products to buy, or anything else depending on industries).
 
-•	The main objective of this project is to create a machine learning model to recommend relevant books to users based on popularity and user ratings.
+### Methods Used
+* Descriptive Statistics
+* Data Visualization
+* Machine Learning
 
-•	Since, here we are trying to recommend books to users based on popularity or ratings the user gave previously, I have tried different models like Popularity based recommender system and Collaborative filtering to build a book recommendation system.
 
-•	We are using Book-Crossing dataset to train and test our recommendation system. The dataset comprises of three .csv files: Books, Users and Ratings.
+### Technologies
+* Python
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Surprise
 
-•	After loading our dataset and importing all the necessary libraries, we perform EDA on features to get insights from the data. 
+### Data
+The Book-Crossing dataset comprises 3 files (Click here to access the Data https://drive.google.com/drive/folders/184irGJPi73xYu_eMgI3JBCc-okIOTUIF?usp=sharing )
+* Users : 
+Contains the users. Note that user IDs (User-ID) have been anonymized and map to
+integers. Demographic data is provided (Location, Age) if available. Otherwise, these
+fields contain NULL values.
+* Books : 
+Books are identified by their respective ISBN. Invalid ISBNs have already been removed
+from the dataset. Moreover, some content-based information is given (Book-Title,
+Book-Author, Year-Of-Publication, Publisher), obtained from Amazon Web
+Services. Note that in the case of several authors, only the first is provided. URLs linking
+to cover images are also given, appearing in three different flavors (Image-URL-S,
+Image-URL-M, Image-URL-L), i.e., small, medium, large. These URLs point to the
+Amazon website.
+* Ratings :
+Contains the book rating information. Ratings (Book-Rating) are either explicit,
+expressed on a scale from 1-10 (higher values denoting higher appreciation), or implicit,
+expressed by 0.
 
-•	In EDA we found that Majority of the readers were of the age bracket 20–35 and most of them came from North American and European countries namely USA, Canada, UK, Germany and Spain. Top rated books were essentially novels. Books like Harry Potter series, Lord of the Rings series, The Lovely Bone, etc.
+## Project Description
+* EDA - Performed exploratory data analysis on numerical and categorical data.
+* Data Cleaning - Missing value imputation,Outlier Treatment
+* Feature Selection - Used User-ID,ISBN and Books-Rating for model development.
+* Model development - Tried Popularity based model and Collaborative filtering (Both Memory based and Model based).
 
-•	After that I performed Feature engineering and Data cleaning on the Year-Of-Publication column in books dataset to handle misrepresented data.
 
-•	Lastly, I build the recommendation system by using Popularity based approach model and Collaborative Filtering Model.
+## Needs of this project
 
-•	In Popularity based approach I have sorted top 50 books from the dataset on the basis of number of ratings received (more than 250) and highest average rating.
+- data exploration
+- data processing/cleaning
+- recommendation system developement
 
-•	In Collaborative Filtering model, with the help of Cosine Similarity measurement, I have created the correlation matrix considering only those books which have total ratings of more than 50 and only those Users who have rated more than 200 books. For the input book using the correlation matrix, the model recommends top 4 books.
+
 
 Webpage: https://book-recommendersystem.herokuapp.com/ 
