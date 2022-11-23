@@ -1,4 +1,6 @@
-![MyNextBook](https://user-images.githubusercontent.com/87125043/179919337-6b63e003-6f23-4849-a3a9-f74b4276e8e0.jpg)
+<p align="center">
+  <img src="![MyNextBook](https://user-images.githubusercontent.com/87125043/203602521-865ab4b8-106d-44c1-a474-aeb0e3e68057.jpg)" width="200px" height="200px">
+</p>
 
 # Book Recommendation System
 
