@@ -23,7 +23,7 @@ amount of income when they are efficient or also be a way to stand out significa
 * Surprise
 
 ### Data
-The Book-Crossing dataset comprises 3 files (Click here to access the Data https://drive.google.com/drive/folders/184irGJPi73xYu_eMgI3JBCc-okIOTUIF?usp=sharing )
+The Book-Crossing dataset comprises 3 files (Click [here](https://drive.google.com/drive/folders/184irGJPi73xYu_eMgI3JBCc-okIOTUIF?usp=sharing) to access the Data)
 * Users : 
 Contains the users. Note that user IDs (User-ID) have been anonymized and map to
 integers. Demographic data is provided (Location, Age) if available. Otherwise, these
