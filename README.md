@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![MyNextBook](https://user-images.githubusercontent.com/87125043/203602521-865ab4b8-106d-44c1-a474-aeb0e3e68057.jpg)" width="200px" height="200px">
+  <img src="MyNextBook.jpg" width="500px" height="400px">
 </p>
 
 # Book Recommendation System
