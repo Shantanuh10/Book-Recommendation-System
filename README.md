@@ -1,7 +1,7 @@
 <h1 align="center"> Book Recommendation System </h1>
 
 <p align="center">
-  <img src="MyNextBook.jpg" width="300px" height="250px">
+  <img src="Book Recommender System Files/BookRecommendationsPlease_MEME1.jpg" width="300px" height="250px">
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
