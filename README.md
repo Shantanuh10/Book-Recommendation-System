@@ -65,7 +65,7 @@ movie then we will recommend A movie to Y user and D movie to X user.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<p> <i> Contact me for Data Science Project Collaborations</i></p>
+<h2>✉ Contact me for Data Science Project Collaborations </h2>
 
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shantanuh10/)
